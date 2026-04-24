@@ -1,0 +1,186 @@
+/*home page*/
+
+#title{ 
+    font-size: 60px;
+}
+
+.start_info p{
+    text-align: left;
+    margin-left: 45%;
+    font-size: 18px;
+}
+
+.start_info h2 {
+    margin-left: 0 auto;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.start_info h3 {
+    text-align: left;
+    margin-left: 45%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+/*home page*/
+
+
+/*Stats*/
+
+
+#Physicals_data{
+    width: 30%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#Physicals_data{
+    width: 30%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#Physicals_data th{
+    background-color: #111;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+}
+
+#Physicals_data td{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+#Physicals_data2{
+    width: 30%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 18px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#Physicals_data2 th{
+    background-color: #111;
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+}
+
+#Physicals_data2 td{
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/*Stats*/
+
+/*Gameplay*/
+
+
+.logo_gameplay {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.Gameplay_content {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Links */
+.Gameplay_content a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.Gameplay_content a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive video */
+.video-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto 0 auto; /* Center horizontally and add top margin */
+    padding-bottom: 56.25%; /* 16:9 ratio */
+}
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    border: none;
+}
+
+
+/*Gamplay*/
+
+
+
+/*About Me*/
+
+
+
+/*Gallery*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    gap: 30px;
+    padding: 30px;
+}
+
+.grid-item img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  #title {
+    font-size: 28px;
+  }
+  .gallery {
+    /* Keep original grid for custom placement */
+    gap: 15px;
+    padding: 10px;
+  }
+  .grid-item img {
+    border-radius: 6px;
+  }
+}
+  /* Only adjust size, not position, for special images */
+  #Park, #Ace_Tournament, #FRH {
+    max-width: 98vw;
+    max-height: 60vw;
+    /* Keep original margin and position */
+  }
