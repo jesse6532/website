@@ -4,23 +4,38 @@
     font-size: 60px;
 }
 
+#Park {
+    margin-left: -27%;
+    width: 15%;
+    height: 15%;
+}
+
 .start_info p{
     text-align: left;
     margin-left: 45%;
-    font-size: 18px;
+    font-size: 25px;
+    color: black;
 }
 
 .start_info h2 {
-    margin-left: 0 auto;
-    font-size: 30px;
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 45%;
+    margin-top: -15%;
+    font-size: 40px;
     font-weight: bolder;
 }
 
 .start_info h3 {
+    text-decoration: underline;
     text-align: left;
     margin-left: 45%;
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bolder;
+}
+
+#email p {
+    color: black;
 }
 
 body {
@@ -35,26 +50,30 @@ body {
 
 /*Stats*/
 
+#Biometrics {
+    margin-top: 5%;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+}
 
-#Physicals_data{
-    width: 30%;
-    margin: 30px auto;
-    border-collapse: collapse;
-    font-size: 18px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    overflow: hidden;
+#Volleymetrics {
+    margin-top: 5%;
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 #Physicals_data{
     width: 30%;
     margin: 30px auto;
     border-collapse: collapse;
-    font-size: 18px;
+    font-size: 25px;
     background-color: #f9f9f9;
     border-radius: 10px;
     overflow: hidden;
 }
+
 
 #Physicals_data th{
     background-color: #111;
@@ -72,7 +91,7 @@ body {
     width: 30%;
     margin: 30px auto;
     border-collapse: collapse;
-    font-size: 18px;
+    font-size: 25px;
     background-color: #f9f9f9;
     border-radius: 10px;
     overflow: hidden;
@@ -94,6 +113,14 @@ body {
 
 /*Gameplay*/
 
+
+
+#highlight-video {
+    margin-top: 10%;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: underline;
+}
 
 .logo_gameplay {
     color: white;
@@ -139,6 +166,13 @@ body {
     border: none;
 }
 
+#more_footage {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
 
 /*Gamplay*/
 
@@ -146,6 +180,25 @@ body {
 
 /*About Me*/
 
+
+.About_me p {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.About_me h2 {
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+
+
+/*About Me*/
 
 
 /*Gallery*/
