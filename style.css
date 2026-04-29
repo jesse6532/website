@@ -1,3 +1,19 @@
+#body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f7fa;
+    text-align: center;
+    color: #1b1b1b;
+}
+
+.body_background {
+    background-color: #ffffff;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
 /*home page*/
 
 #title{ 
@@ -5,9 +21,19 @@
 }
 
 #Park {
-    margin-left: -27%;
-    width: 15%;
-    height: 15%;
+    margin-top: 5%;
+    margin-left: -35%;
+    width: 20%;
+    height: 20%;
+}
+
+.start_info h2 {
+    text-decoration: underline;
+    text-align: left;
+    margin-left: 45%;
+    margin-top: -25%;
+    font-size: 40px;
+    font-weight: bolder;
 }
 
 .start_info p{
@@ -15,15 +41,6 @@
     margin-left: 45%;
     font-size: 25px;
     color: black;
-}
-
-.start_info h2 {
-    text-decoration: underline;
-    text-align: left;
-    margin-left: 45%;
-    margin-top: -15%;
-    font-size: 40px;
-    font-weight: bolder;
 }
 
 .start_info h3 {
@@ -34,7 +51,7 @@
     font-weight: bolder;
 }
 
-#email p {
+.start_info a {
     color: black;
 }
 
@@ -51,14 +68,14 @@ body {
 /*Stats*/
 
 #Biometrics {
-    margin-top: 5%;
+    margin-top: 10%;
     font-size: 40px;
     text-decoration: underline;
     font-weight: bold;
 }
 
 #Volleymetrics {
-    margin-top: 5%;
+
     font-size: 40px;
     text-decoration: underline;
     font-weight: bold;
@@ -116,7 +133,7 @@ body {
 
 
 #highlight-video {
-    margin-top: 10%;
+    margin-top: 15%;
     font-weight: bold;
     font-size: 40px;
     text-decoration: underline;
@@ -152,9 +169,12 @@ body {
 .video-container {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 850px;
     margin: 20px auto 0 auto; /* Center horizontally and add top margin */
-    padding-bottom: 56.25%; /* 16:9 ratio */
+    padding-bottom: 60%; /* 16:9 ratio */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
 }
 
 .video-container iframe {
@@ -167,7 +187,7 @@ body {
 }
 
 #more_footage {
-    margin-top: 40px;
+    margin-top: 10%;
     font-size: 40px;
     font-weight: bold;
     text-decoration: underline;
@@ -181,39 +201,74 @@ body {
 /*About Me*/
 
 
-.About_me p {
-    max-width: 1000px;
-    margin: 40px auto;
-    padding: 20px;
-    text-align: left;
-    text-decoration: underline;
-}
 
 .About_me h2 {
     text-decoration: underline;
     font-size: 40px;
     font-weight: bolder;
-    margin-top: 20px;
+    margin-top: 10%;
 }
 
+.About_me p {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+}
 
+.About_me ul {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+    list-style-type: none ;
+}
+
+.strengths h2 {
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-top: 10%;
+}
+
+.strengths {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    text-align: left;
+    font-size: 25px;
+    list-style-type: none ;
+}
 
 /*About Me*/
 
 
 /*Gallery*/
 
+#gallery_head {
+    font-size: 40px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+}
+
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
     gap: 30px;
-    padding: 30px;
+    padding: 40px;
 }
 
 .grid-item img{
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
 }
 
 
@@ -229,11 +284,6 @@ body {
   }
   .grid-item img {
     border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
 }
-  /* Only adjust size, not position, for special images */
-  #Park, #Ace_Tournament, #FRH {
-    max-width: 98vw;
-    max-height: 60vw;
-    /* Keep original margin and position */
-  }
