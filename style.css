@@ -21,18 +21,13 @@
 }
 .hero {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     gap: 60px;
     margin-top: 40px;
     flex-wrap: wrap;
 }
 
-#Park {
-    width: 250px;
-    height: auto;
-    border-radius: 12px;
-}
 
 .start_info {
     text-align: left;
