@@ -66,22 +66,56 @@ body {
 
 /*Stats*/
 
-#Biometrics {
+.Physical_Stats h2 {
     margin-top: 10%;
     font-size: 40px;
     text-decoration: underline;
     font-weight: bold;
 }
 
-#Volleymetrics {
+.Physical_Stats th {
+    background-color: #111;
+    color: white;
+    padding: 12px;
+    font-weight: normal;
+}
 
+.Physical_Stats td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Physical_Stats table {
+    width: 30%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Total_Stats h2 {
+    margin-top: 10%;
     font-size: 40px;
     text-decoration: underline;
     font-weight: bold;
 }
 
-#Physicals_data{
-    width: 30%;
+.Total_Stats th {
+    background-color: #111;
+    color: white;
+    padding: 12px;
+    font-weight: normal;
+}
+
+.Total_Stats td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Total_Stats table {
+    width: 40%;
     margin: 30px auto;
     border-collapse: collapse;
     font-size: 25px;
@@ -90,40 +124,6 @@ body {
     overflow: hidden;
 }
 
-
-#Physicals_data th{
-    background-color: #111;
-    color: white;
-    padding: 12px;
-    font-weight: bold;
-}
-
-#Physicals_data td{
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
-
-#Physicals_data2{
-    width: 30%;
-    margin: 30px auto;
-    border-collapse: collapse;
-    font-size: 25px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-#Physicals_data2 th{
-    background-color: #111;
-    color: white;
-    padding: 12px;
-    font-weight: bold;
-}
-
-#Physicals_data2 td{
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
 
 /*Stats*/
 
