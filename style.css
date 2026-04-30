@@ -30,6 +30,7 @@
 .start_info h2 {
     text-decoration: underline;
     text-align: left;
+    margin-top: -25%;
     margin-left: 45%;
     font-size: 40px;
     font-weight: bolder;
@@ -60,6 +61,15 @@ body {
     text-align: center;
 }
 
+#email a {
+    text-decoration: none;
+}
+
+
+#email a:hover {
+    text-decoration: underline;
+
+}
 
 /*home page*/
 
@@ -160,9 +170,6 @@ body {
     text-align: center;
 }
 
-.Gameplay_content a:hover {
-    text-decoration: underline;
-}
 
 /* Responsive video */
 .video-container {
@@ -192,6 +199,9 @@ body {
     text-decoration: underline;
 }
 
+.Gameplay_content a:hover {
+    text-decoration: underline;
+}
 
 /*Gamplay*/
 
