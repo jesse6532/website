@@ -7,7 +7,7 @@
 
 .body_background {
     background-color: #ffffff;
-    width: 80%;
+    width: 50%;
     margin: 40px auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -17,114 +17,50 @@
 /*home page*/
 
 #title{ 
-    font-size: 60px;
+    font-size: 50px;
 }
 .hero {
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    gap: 60px;
-    margin-top: 40px;
+    gap: 50px;
+    margin-top: 20px;
     flex-wrap: wrap;
 }
 
 
 .start_info {
     text-align: left;
-    max-width: 400px;
+    max-width: 600px;
 }
 
-.start_info h2,
-.start_info h3 {
+.start_info h2 {
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
 .start_info p {
-    font-size: 25px;
+    font-size: 20px;
     margin: 5px 0;
 }
 /*home page*/
 
 
-/*Stats*/
-
-.Physical_Stats h2 {
-    margin-top: 10%;
-    font-size: 40px;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.Physical_Stats th {
-    background-color: #111;
-    color: white;
-    padding: 12px;
-    font-weight: normal;
-}
-
-.Physical_Stats td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
-
-.Physical_Stats table {
-    width: 30%;
-    margin: 30px auto;
-    border-collapse: collapse;
-    font-size: 25px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-.Total_Stats h2 {
-    margin-top: 10%;
-    font-size: 40px;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.Total_Stats th {
-    background-color: #111;
-    color: white;
-    padding: 12px;
-    font-weight: normal;
-}
-
-.Total_Stats td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
-
-.Total_Stats table {
-    width: 40%;
-    margin: 30px auto;
-    border-collapse: collapse;
-    font-size: 25px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-
-/*Stats*/
 
 /*Gameplay*/
 
 
 
 #highlight-video {
-    margin-top: 15%;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: underline;
 }
 
 .logo_gameplay {
     color: white;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -138,7 +74,7 @@
 
 /* Links */
 .Gameplay_content a {
-    font-size: 30px;
+    font-size: 25px;
     text-decoration: none;
     color: black;
     text-align: center;
@@ -168,7 +104,7 @@
 
 #more_footage {
     margin-top: 10%;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -180,48 +116,134 @@
 /*Gamplay*/
 
 
+/*Academics*/
+
+.academics {
+    max-width: 1000px;
+    margin: 40px auto;
+    text-align: left;
+    font-size: 20px;
+}
+
+.academics h2 {
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/*Academics*/
+
+
+/*Contact*/
+
+
+.contact_info {
+    max-width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+/*Contact*/
+
+/*Stats*/
+
+.Physical_Stats h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Physical_Stats th {
+    background-color: #111;
+    color: white;
+    padding: 12px;
+    font-weight: normal;
+}
+
+.Physical_Stats td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Physical_Stats table {
+    width: 30%;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.Total_Stats h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Total_Stats th {
+    background-color: #111;
+    color: white;
+    padding: 12px;
+    font-weight: normal;
+}
+
+.Total_Stats td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.Total_Stats table {
+    width: 50%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/*Stats*/
+
+
 
 /*About Me*/
 
-
-
 .About_me h2 {
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
-    margin-top: 10%;
+
 }
 
 .About_me p {
     max-width: 1000px;
     margin: 40px auto;
-    padding: 20px;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .About_me ul {
     max-width: 1000px;
     margin: 40px auto;
-    padding: 20px;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     list-style-type: none ;
 }
 
 .strengths h2 {
     text-decoration: underline;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bolder;
-    margin-top: 10%;
 }
 
 .strengths {
     max-width: 1000px;
     margin: 40px auto;
-    padding: 20px;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     list-style-type: none ;
 }
 
@@ -231,7 +253,7 @@
 /*Gallery*/
 
 #gallery_head {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: underline;
     font-weight: bold;
     color: black;
