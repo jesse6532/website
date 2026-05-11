@@ -9,11 +9,27 @@ html {
     color: #1b1b1b;
 }
 
+#body {
+    animation: fadeUp 1s ease;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 #body h2 {
     font-size: 35px;
     font-weight: bold;
     text-align: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
 .body_background {
@@ -24,6 +40,32 @@ html {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 30px;
+}
+
+@media (max-width: 768px) {
+
+    #title{
+        font-size: 36px;
+    }
+
+    #body h2{
+        font-size: 28px;
+    }
+
+    #body p{
+        font-size: 18px
+    }
+
+    #body a {
+        font-size: 18px;
+    }
+
+    .hero_grid,
+    .contact_grid,
+    .achievements_grid,
+    .total_Stats {
+        grid-template-columns: 1 fr;
+    }
 }
 
 /*home page*/
@@ -42,13 +84,14 @@ html {
 }
 
 .hero_image img {
-    padding-top: 50px;
-    width: auto;
+    margin-top: 50px;
+    max-width: 300px;
+    width: 100%;
     height: auto;
 }
 
 .info_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     padding: 1px;
@@ -66,8 +109,8 @@ html {
     display: grid;
     gap: 50px;
     margin: 30px auto;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    max-width: 900px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    max-width: 800px;
 }
 
 .stat_card {
@@ -99,6 +142,11 @@ html {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+.info_section {
+    animation: fadeUp 1s ease;
+}
+
+
 /*home page*/
 
 
@@ -106,7 +154,7 @@ html {
 /*Gameplay*/
 
 .gameplay_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -181,12 +229,13 @@ html {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+
 /*Gameplay*/
 
 /*Contact*/
 
 .contact_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 1px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -240,12 +289,17 @@ html {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+.contact_section {
+    animation: fadeUp 1s ease;
+}
+
+
 /*Contact*/
 
 /*Stats*/
 
 .stats_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -288,12 +342,13 @@ html {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+
 /*Stats*/
 
 /*Achievements*/
 
 .achievements_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -336,13 +391,14 @@ html {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+
 /*Achievements*/
 
 
 /*What I Bring to the Team*/
 
 .strengths_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -358,13 +414,14 @@ html {
     max-width: 500px;
 }
 
+
 /*What I Bring to the Team*/
 
 
 /*Academics*/
 
 .academics_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -378,13 +435,16 @@ html {
     font-size: 20px;
 
 }
+
+
+
 /*Academics*/
 
 
 /*About Me*/
 
 .About_me_section {
-    background-color: #ffffff;
+    background-color: #fafafa;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -415,6 +475,7 @@ html {
     list-style-type: none ;
     max-width: 500px;
 }
+
 
 /*About Me*/
 
