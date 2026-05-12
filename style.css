@@ -83,6 +83,51 @@ html {
     max-width: 600px;
 }
 
+#quicklinks {
+    margin-top: 0px;
+}
+
+.navbar_section {
+    background-color: #fafafa;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 1px;
+    max-width: 1500px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    animation: fadeUp 1s ease;
+}
+
+.nav_card{
+    background-color: #eee9e9;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.4s ease;
+}
+
+.navbar {
+    display: grid;
+    gap: 50px;
+    margin: 30px auto;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    max-width: 1400px;
+}
+
+.navbar a {
+    color: #1b1b1b;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav_card:hover {
+    color: cadetblue;    
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
 .hero_image img {
     margin-top: 50px;
     max-width: 300px;
@@ -229,6 +274,10 @@ html {
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
 
+.footage_card a:hover {
+    color: cadetblue;
+}
+
 
 /*Gameplay*/
 
@@ -291,6 +340,10 @@ html {
 
 .contact_section {
     animation: fadeUp 1s ease;
+}
+
+.contact_info a:hover {
+    color: cadetblue;
 }
 
 
@@ -508,3 +561,16 @@ html {
     transform: scale(1.05);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
 }
+
+/*Footer*/
+
+.footer a, p{
+    font-size: 18px;
+    color:#1b1b1b
+}
+
+.footer a:hover {
+    color: cadetblue;
+}
+
+/*Footer*/
