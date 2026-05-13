@@ -109,23 +109,26 @@ html {
 
 .navbar {
     display: grid;
-    gap: 50px;
+    gap: 30px;
     margin: 30px auto;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
     max-width: 1400px;
 }
 
-.navbar a {
+.navbar a{
     color: #1b1b1b;
     font-weight: bold;
     text-decoration: none;
     font-size: 20px;
 }
 
-.nav_card:hover {
-    color: cadetblue;    
+.nav_card:hover {  
     transform: translateY(-5px);
     box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.nav_card:hover p {
+    color: cadetblue;  
 }
 
 .hero_image img {
@@ -133,6 +136,31 @@ html {
     max-width: 300px;
     width: 100%;
     height: auto;
+}
+
+@media (max-width: 768) {
+    #quicklinks {
+        font-size: 28px;
+        margin-top: 20px;
+    }
+    .navbar_section {
+        padding: 10px;
+        border-radius: 0;
+        position: sticky;
+        top: 0;
+    }
+    .navbar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        margin: 10px auto;
+    }
+    .nav_card {
+        padding: 0;
+    }
+    .navbar a {
+        font-size: 16px;
+        margin-top: 0;
+    }
 }
 
 .info_section {
